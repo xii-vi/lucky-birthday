@@ -1,5 +1,5 @@
 var dateOfBirth = document.querySelector("#dob");
-var luckyNum = document.querySelector("#luckyNo");
+var luckyNum = document.querySelector("#lucky");
 var checkBtn = document.querySelector("#check");
 var outputBox = document.querySelector("#output-box");
 
