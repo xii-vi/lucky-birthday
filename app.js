@@ -1,10 +1,12 @@
 var dateOfBirth = document.querySelector("#dob");
-var luckyNum = document.querySelector("#lucky");
+var luckyNum = document.querySelector("#luck");
 var checkBtn = document.querySelector("#check");
 var outputBox = document.querySelector("#output-box");
 
+
+
 function compareValues(sum, luckyNum) {
-    if (sum % luckyNum === 0) {
+    if (sum % luckyNum.value === 0) {
         outputBox.innerText = "Your Birthday is Lucky";
     } else {
         outputBox.innerText = "Sorry, Better Luck Next Birth";
